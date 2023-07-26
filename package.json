@@ -1,0 +1,34 @@
+{
+  "name": "06_bundlers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development gulp dev",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "Yaroslavna Gai",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-loader": "^9.1.3",
+    "browser-sync": "^2.29.3",
+    "cross-env": "^7.0.3",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^6.2.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-uglify-es": "^3.0.0"
+  },
+  "dependencies": {}
+}
