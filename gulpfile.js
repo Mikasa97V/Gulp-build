@@ -123,7 +123,7 @@ const watchFiles = () => {
   })
   watch('src/**/*.html', htmlMinify)
   watch('src/styles/**/*.css', styles)
-  watch('src/images/svg/**/*.svg', svgSprites)
+  watch('src/images/**', images)
   watch('src/scripts/**/*.js', scripts)
   watch('src/resources/**', resources)
 }

@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 
-> Сборка Gulp с build и dev версиями. Минификация файлов, sourcemap, hot reload.
+> Сборка Gulp с build и dev версиями. Минификация файлов, sourcemap, hot reload. <br>Официальный сайт [Gulp](https://gulpjs.com/).
 
 ---
 ## 🚀 Начало работы
@@ -14,7 +14,7 @@
 Для начала, клонируйте этот репозиторий на свой локальный компьютер:
 
 ```bash
-git clone <https://github.com/Mikasa97V/Gulp-build.git>
+git clone https://github.com/Mikasa97V/Gulp-build.git
 ```
 
 Перейдите в папку проекта.
